@@ -80,13 +80,13 @@ class FiveBoard:
                     move_count = 0
         return move_count
 
-board = FiveBoard()
-board.make_move(0, 0, 'x')
-board.make_move(0, 0, 'o')
+# board = FiveBoard()
+# board.make_move(0, 0, 'x')
+# board.make_move(0, 0, 'o')
 # board.make_move(2, 12, 'x')
 # board.make_move(3, 11, 'x')
 # board.make_move(4, 10, 'x')
-print(board.get_current_board())
+# print(board.get_current_board())
 # print(board.get_current_state())
 #
 # while board.get_current_state() == "UNFINISHED":
