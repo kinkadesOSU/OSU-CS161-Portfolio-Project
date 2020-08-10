@@ -30,7 +30,7 @@ class FiveBoard:
                     self._current_state = 'X_WON'
                 elif move == 'o':
                     self._current_state = 'O_WON'
-                return True
+        return True
 
     def check_horizontals(self, move):
         move_count = 0
