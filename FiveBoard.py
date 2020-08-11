@@ -30,14 +30,14 @@ class FiveBoard:
     #                     else:
     #                         self._game_board[i][j] = 'o'
 
-    def get_current_board(self):  # delete at final
-        """Test method to print out the game board"""
-        print("    0    1    2    3    4    5    6    7    8    9    10   11   12   13   14")
-        for i in range(0, 15):
-            if i < 10:
-                print(str(i) + "  " + str(self._game_board[i]))
-            else:
-                print(str(i) + " " + str(self._game_board[i]))
+    # def get_current_board(self):  # delete at final
+    #     """Test method to print out the game board"""
+    #     print("    0    1    2    3    4    5    6    7    8    9    10   11   12   13   14")
+    #     for i in range(0, 15):
+    #         if i < 10:
+    #             print(str(i) + "  " + str(self._game_board[i]))
+    #         else:
+    #             print(str(i) + " " + str(self._game_board[i]))
 
     def get_current_state(self):
         """Returns the state of the game (won, draw, or unfinished"""
