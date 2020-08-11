@@ -2,9 +2,6 @@
 # Date: 8/30/20
 # Description: Allows for the playing of a 15x15 board game where players must get 5 'x's or 'o's in a row, column, or diagonal.
 
-import random
-
-
 class FiveBoard:
     """Creates the board game "rules" and checks for the winning conditions"""
 
