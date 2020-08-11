@@ -142,27 +142,27 @@ class FiveBoard:
         return is_draw
 
 
-board = FiveBoard()
+# board = FiveBoard()
 # board.draw_board_with_draw()
 # print(board.get_current_board())
 # print(board.is_draw())
 # board.make_move(14, 14, 'x')
 # print(board.get_current_state())
 
-while board.get_current_state() == "UNFINISHED":
-    # computer player
-    row = random.randint(0, 14)
-    col = random.randint(0, 14)
-    move = 'x'
-    print("x played " + str(row) + ", " + str(col))
-    board.make_move(row, col, move)
-    # print(board.get_current_state())
-
-    row = random.randint(0, 14)
-    col = random.randint(0, 14)
-    move = 'o'
-    print("o played " + str(row) + ", " + str(col))
-    board.make_move(row, col, move)
-
-print(board.get_current_board())
-print(board.get_current_state())
+# while board.get_current_state() == "UNFINISHED":
+#     # computer player
+#     row = random.randint(0, 14)
+#     col = random.randint(0, 14)
+#     move = 'x'
+#     print("x played " + str(row) + ", " + str(col))
+#     board.make_move(row, col, move)
+#     # print(board.get_current_state())
+#
+#     row = random.randint(0, 14)
+#     col = random.randint(0, 14)
+#     move = 'o'
+#     print("o played " + str(row) + ", " + str(col))
+#     board.make_move(row, col, move)
+#
+# print(board.get_current_board())
+# print(board.get_current_state())
